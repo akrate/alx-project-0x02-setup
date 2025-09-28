@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from '@/components/layout/Header';
 
-const HomePage = () => {
+const PostsPage = () => {
   return (
     <>
       <Header />
       <div className="p-8">
-        <h1 className="text-3xl font-bold">Welcome to the Home Page</h1>
+        <h1 className="text-3xl font-bold">Posts Page</h1>
       </div>
     </>
   );
 };
 
-export default HomePage;
-
+export default PostsPage;
